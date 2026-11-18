@@ -1,0 +1,5 @@
+- [x] Review uploaded portfolio brief; use one recruiter conversation.
+- [ ] Build portfolio sections, navigation, project links, skills, education, and resume download.
+- [ ] Add private, no-history Lovable AI recruiter chat.
+- [ ] Keep contact message private and email-client based; email provider access was declined.
+- [ ] Verify mobile and desktop portfolio, run targeted tests, and commit the change.
