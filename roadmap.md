@@ -1,6 +1,7 @@
-- [x] Review uploaded portfolio brief; use one recruiter conversation.
-- [x] Build portfolio sections, navigation, project links, skills, education, and resume download.
-- [ ] Apply complete dark-teal styling, fix hero overlap, improve navigation and project cards, and finish the portrait placeholder.
-- [ ] Add private, no-history Lovable AI recruiter chat.
-- [ ] Keep contact message private and email-client based; email provider access was declined.
-- [ ] Verify mobile and desktop portfolio, run targeted tests, and commit the change.
+- [x] Review portfolio brief; keep the recruiter chat to one unsaved conversation.
+- [x] Build portfolio content and apply the dark-teal visual design.
+- [ ] Use the uploaded headshot in the circular hero portrait.
+- [ ] Save the uploaded résumé as `public/SAMUKELO_CELE_RESUME.pdf` and link its download button.
+- [ ] Confirm the hero and contact email links open `mailto:samkeloacele@gmail.com`.
+- [ ] Connect the recruiter chat to Lovable AI with the résumé-grounded prompt; do not save messages.
+- [ ] Verify the chat, résumé download, email links, and responsive page; run checks and commit.

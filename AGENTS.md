@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project decisions
+
+- Stream recruiter chat through a TanStack server route and Lovable AI Gateway; this keeps prompts and credentials server-side and follows the app runtime.
