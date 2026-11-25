@@ -31,6 +31,8 @@ import {
   SiSelenium,
 } from "react-icons/si";
 import { Button } from "@/components/ui/button";
+import headshotAsset from "@/assets/samukelo-headshot.asset.json";
+import { RecruiterChat } from "@/components/recruiter-chat";
 
 const emailAddress = "samkeloacele@gmail.com";
 
@@ -230,7 +232,7 @@ function Portfolio() {
               <a href="#projects">Explore my work <ArrowDownRight aria-hidden="true" /></a>
             </Button>
             <Button asChild className="hero-secondary" size="lg" variant="outline">
-              <a href="/Samukelo-Cele-Resume.pdf" download>
+              <a href="/SAMUKELO_CELE_RESUME.pdf" download="SAMUKELO_CELE_RESUME.pdf">
                 <Download aria-hidden="true" /> Download résumé
               </a>
             </Button>
@@ -246,8 +248,7 @@ function Portfolio() {
           <div className="art-orbit orbit-one" />
           <div className="art-orbit orbit-two" />
           <div className="portrait-placeholder">
-            <div className="portrait-grid" />
-            <span className="portrait-initials">SC</span>
+            <img className="portrait-image" src={headshotAsset.url} alt="Portrait of Samukelo Cele" />
             <span className="portrait-availability"><span /> AVAILABLE FOR WORK</span>
           </div>
           <span className="art-plus plus-top">+</span>
@@ -372,7 +373,7 @@ function Portfolio() {
           <h2>Let’s make<br /><span>software better.</span></h2>
           <p className="contact-intro">Looking for a curious junior test analyst? I’d love to hear what your team is building.</p>
           <div className="contact-location"><MapPin /> Durban, KwaZulu-Natal, South Africa</div>
-          <a className="email-direct" href={`mailto:${emailAddress}`}><Mail /> {emailAddress} <ArrowUpRight /></a>
+          <a className="email-direct" href="mailto:samkeloacele@gmail.com"><Mail /> {emailAddress} <ArrowUpRight /></a>
         </div>
         <form className="contact-form" onSubmit={submitContact}>
           <p className="form-eyebrow">SEND A NOTE</p>
@@ -405,6 +406,7 @@ function Portfolio() {
         <span className="footer-year">© 2026</span>
       </footer>
       <a className="back-to-top" href="#home" aria-label="Back to top"><ChevronDown /></a>
+      <RecruiterChat />
     </main>
   );
 }
